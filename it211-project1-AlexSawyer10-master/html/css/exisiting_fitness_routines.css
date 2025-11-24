@@ -1,0 +1,24 @@
+.title
+{
+    color: red;
+    text-align: center;
+    text-underline-color: red;
+    font-size: 80px;
+}
+
+.editWorkoutContainer
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: black solid 1px;
+    margin: 10px
+}
+.footerContainer
+{
+    display: flex;
+    justify-content: right;
+    min-height: 0vh;
+}
+
+

@@ -1,0 +1,41 @@
+.title
+{
+    color: red;
+    text-align: center;
+    text-underline-color: red;
+    font-size: 80px;
+}
+.letsGo
+{
+    background-color: #4591fd;
+    color:black;
+    cursor: pointer;
+}
+.letsGo:hover
+{
+    background-color: lightgrey;
+}
+.letsGo:active
+{
+    background-color: lightgreen;
+}
+.centerPage
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    flex-direction: column;
+}
+.imageContainer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+.h2
+{
+    font-size: 50px;
+}

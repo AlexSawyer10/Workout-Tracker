@@ -1,0 +1,47 @@
+.title
+{
+    color: red;
+    text-align: center;
+    text-underline-color: red;
+    font-size: 80px;
+}
+.addWorkout
+{
+    background-color: #4591fd;
+    color:black;
+    cursor: pointer;
+}
+.addWorkout:hover
+{
+    background-color: lightgrey;
+}
+.addWorkout:active
+{
+    background-color: lightgreen;
+}
+.centerPage
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.workoutContainer
+{
+    display: flex;
+}
+.newWorkoutContainer
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: black solid 1px;
+    margin: 10px
+}
+.footerContainer
+{
+    display: flex;
+    justify-content: right;
+    min-height: 0vh;
+}
